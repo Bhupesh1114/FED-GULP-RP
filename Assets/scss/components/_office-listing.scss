@@ -1,0 +1,66 @@
+.office-listing{
+    // border: 1px solid;
+    max-width: 1320px;
+    margin: auto;
+    &__region{
+        // border: 1px solid red;
+        margin-bottom: 60px;
+        &__main-container{
+            display: flex;
+            border-bottom: 1px solid $border_color;
+            &__title{
+                width: 20%;
+                // border: 2px solid blue;
+                text-align: center;
+                padding: 20px;
+                &__name{
+                    color: $title_color;
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+            }
+                &__wrapper{
+                    width: 80%;
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    // border: 2px solid red;
+                    .office-listing__region__main-container__office{
+                        // border: 2px solid green;
+                        padding: 20px;
+                        margin-bottom: 60px;
+                        color: $title_color;
+                        font-size: 21px;
+                   
+                        &__address{
+                            display: block;
+                            color: #565656;
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+                     &__container{
+                        display: flex;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        &__tel{
+                            margin-right: 30px;
+                            color: $title_color;
+                            text-decoration: none;
+                        }
+                        &__mail{
+                            color: $title_color;
+                            text-decoration: none;
+                            &::before{
+                                content:'\2709';
+                                margin-right: 5px;
+                            }
+                        }
+                     }
+                    }
+                }
+        }
+      
+    }
+
+}

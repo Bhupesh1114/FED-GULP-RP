@@ -1,0 +1,88 @@
+.norc-form{
+   max-width: 700px;
+   margin: auto;
+   margin-bottom: 50px;
+   &__heading{
+    font-size: 28px;
+    margin-bottom: 16px;
+   }
+   &__desc{
+    font-size: 20px;
+    margin-bottom: 32px;
+    color: $color-primary;
+    line-height: 1.4;
+   }
+   &__detail{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: $color-primary;
+    line-height: 1.4;
+   }
+   &__container{
+    position: relative;
+    &__input{
+        padding: 20px 36px 16px 16px;
+        border-radius: 5px;
+        width: 100%;
+        border:1px solid #7D7470 ;
+        outline: none;
+        // margin-bottom: 20px;
+    }
+    &__warning{
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: $form-validation;
+        font-weight: 500;
+        display: none;
+    }
+    &__label{
+        position: absolute;
+        left: 10px;
+        top: 3px;
+        font-size: 14px;
+        color: $grey;
+        font-weight: 500;
+    }
+    &__icons{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        &__check{
+            font-size: 25px;
+            color: green;
+            display: none;
+        }
+        &__exclamation{
+            font-size: 25px;
+            color: $form-validation;
+            display: none;
+        }
+    }
+   }
+   &__btn{
+    padding: 16px 40px 16px 39px;
+    background-color: $black;
+    color: $white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    &__icon{
+        margin-left: 10px;
+       }
+       &:hover{
+        background-color: $btn-hover;
+       }
+   }
+}
+
+.form-validation-border{
+    border: 2px solid $form-validation;
+}
+
+.form-validation-color{
+    color: $form-validation;
+}
+
+.input-mb{
+    margin-bottom: 40px;
+}

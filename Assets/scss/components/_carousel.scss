@@ -1,0 +1,86 @@
+.carousel {
+  .carousel-inner {
+    .carousel-container {
+      &__image {
+        width: 100%;
+        min-height: 300px;      // hardcoded
+        object-fit: cover;
+        @media screen and (min-width: 568px){
+         max-height: 411px;
+        }
+      }
+      &__text {
+        width: 100%;
+        padding: 20px;
+        position: static;
+        transform: none;
+        text-align: center;
+        @media screen and (min-width: 1150px) {
+          text-align: left;
+          padding: 0px;
+          width: 38%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(30%, -50%);
+        }
+        &__title {
+          font-size: 30px;
+          color: $title_color;
+          font-weight: 400;
+          letter-spacing: 2px;
+          @media screen and (min-width: 1150px) {
+            font-size: 37px;
+          }
+        }
+        &__desc {
+          font-size: 16px;
+          line-height: 28px;
+          margin: 20px 20px 30px 0px;
+        }
+        &__button {
+          font-size: 16px;
+          font-weight: 700;
+          padding: 10px 30px;
+          border: 2px solid #0077cd;
+          background-color: transparent;
+          &__img {
+            display: inline;
+            margin-left: 5px;
+          }
+        }
+      }
+      .container_width {
+        width: 40%;
+        transform: translate(10%, -50%);
+      }
+    }
+  }
+
+  .carousel-indicators {
+    position: static;
+    align-items: center;
+    &__button {
+      margin-top: 10px;
+      border-radius: 50%;
+      width: 19px;
+      height: 19px;
+      margin: 10px 7px;
+      background-color: $carousel_btn_color;
+    }
+    .active {
+      background-color: $carousel_active_btn_color;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      position: static;
+      &-icon,
+      &-icon {
+        background-image: none;
+        // background-color: red;
+        // border: 1px solid red;
+        display: inline;
+      }
+    }
+  }
+}

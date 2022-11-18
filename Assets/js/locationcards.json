@@ -1,0 +1,29 @@
+[
+    {
+        "city" : "Allentown",
+        "address": "St. Luke’s west End Medical Center 501 Cetronia Road, Suite 135 Allentown, PA, 18104",
+         "telephone" : "(484)526-1260",
+         "officeHours" : {
+            "days" : ["Monday", "Wednesday"],
+            "timings" : ["8:30 AM - noon", "8:30 AM - noon"]
+         }
+    },
+    {
+        "city" : "Allentown",
+        "address": "St. Luke’s west End Medical Center 501 Cetronia Road, Suite 135 Allentown, PA, 18104",
+         "telephone" : "(484)526-1260",
+         "officeHours" : {
+            "days" : ["Monday", "Wednesday"],
+            "timings" : ["8:30 AM - noon", "8:30 AM - noon"]
+         }
+    },
+    {
+        "city" : "London",
+        "address": "St. Luke’s west End Medical Center 501 Cetronia Road, Suite 135 Allentown, PA, 18104",
+         "telephone" : "(484)526-1260",
+         "officeHours" : {
+            "days" : ["Monday", "Wednesday"],
+            "timings" : ["8:30 AM - noon", "8:30 AM - noon"]
+         }
+    }
+]

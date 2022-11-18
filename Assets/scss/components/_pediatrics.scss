@@ -1,0 +1,99 @@
+.pediatrics-container{
+    max-width: 1220px;
+    margin:20px auto 50px auto;
+    display: flex;
+    //height: 500px;         // hardcoded for now
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding: 0px 20px;
+    @media screen and (min-width: 1000px){
+        flex-direction: row;
+    }
+    &__text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0px;
+        @media screen and (min-width: 1000px){
+            width: 70%;
+        }
+        &__img{
+            width:100%;
+            @media screen and (min-width: 1000px){
+                width: 60%;
+            }
+        }
+        &__sub-title{
+            
+            margin-bottom: 20px;
+            color: $title_color;
+            @media screen and (min-width: 1000px){
+                font-size: 25px;
+            }
+        }
+        &__desc{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            
+            @media screen and (min-width: 1000px){
+                padding-right: 60px;
+            }
+        }
+        &__link{
+            color: $link_color;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 20px;
+            width: 160px;
+            &__logo{
+                display: inline;
+            }
+        }
+    }
+    &__card{
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        @media screen and (min-width: 1000px){
+            width: 30%;
+        }
+        &__image{
+            width: 100%;
+        }
+        &__text{
+            padding: 20px;
+
+            &__title{
+                color: $title_color;
+                font-size: 25px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+            &__desc{
+                font-size: 16px;
+                line-height: 28px;
+            }
+            &__btn{
+                margin: 20px 0px 5px 0px;
+                border: 2px solid;
+                font-size: 16px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                &__img{
+                    margin-right: 11px;
+                }
+            }
+        }
+    }
+}
+
+// .card_bg_orange{
+//     background-color: $card_bg_orange;
+//     color: white;
+//     &__text{
+//         color: white;
+//     }
+// }

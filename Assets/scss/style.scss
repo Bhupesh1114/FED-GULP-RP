@@ -1,0 +1,44 @@
+/*=============  Vendor style   ================================*/
+@import "./vendor/bootstrap";
+@import "./vendor/fontawesome";
+
+
+/*=================  base scss  ================================*/
+@import "./base/var";
+@import "./base/mixin";
+@import "./base/base";
+@import "./base/theme";
+
+
+/*============= Component style ================================*/
+
+@import "./components/banner-image";
+@import "./components/banner-carousel";
+@import "./components/popular-services";
+@import "./components/form-style";
+@import "./components/footer";
+@import "./components/services";
+@import "./components/vaccine-card";
+@import "./components/button";
+@import "./components/new-stories-card";
+@import "./components/new-stories-section";
+@import "./components/my-footer";
+@import "./components/my-footer-2";
+@import "./components/carousel";
+@import "./components/pediatrics";
+@import "./components/header";
+// @import "./components/detail";
+@import "./components/detail-scroll";
+@import "./components/office-listing";
+@import "./components/office-listing-dropdown";
+@import "./components/office-listing-map";
+@import "./components/norc-form";
+@import "./components/location-card";
+@import "./components/doctor-profile";
+@import "./components/woods";
+@import "./components/jquery-card";
+@import "./components/off-canvas";
+@import "./components/header-accordian";
+
+
+

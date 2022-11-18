@@ -1,0 +1,38 @@
+
+
+.button{
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button_bg_blue{
+    background-color: $button_bg_blue;
+}
+
+.button_bg_orange{
+    background-color: $button_bg_orange;
+}
+
+.button_text_white{
+    color: $button_text_white;
+}
+
+.text_center{
+   text-align: center;
+}
+
+.button_bg_white{
+    background-color: $button_bg_white;
+}
+
+.button_text_blue{
+    color: $button_text_blue;
+}
+
+.button_text_orange{
+    color: $button_text_orange;
+}

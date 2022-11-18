@@ -1,0 +1,100 @@
+.near-zip{
+ text-align: center;
+
+    &__location{
+        background-color: #4e78bd;
+        padding: 15px 0px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        &__text{
+            font-size: 16px;
+            color: $white;
+        }
+        &__code{
+         margin-left: 10px;
+        }
+        &__btn{
+            margin-left: 10px;
+            color: $white;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    &__container{
+        display: none;
+        background-color: $white;
+        padding: 20px 0px;
+        &__inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__heading{
+                font-size: 16px;
+                margin-right: 10px;
+                color: $grey;
+            }
+            &__input{
+                color: $grey;
+                font-size: 16px;
+                padding: 16px 15px 14px;
+                width: 400px;                     // hardcoded 
+            }
+            &__btn{
+                background-color: #4e78bd;
+                border-radius: 5px;
+                margin-left: 10px;
+            }
+        }
+     
+       
+    }
+}
+
+
+.map-model{
+  text-align: center;
+  padding: 20px 86px;
+    &__title{
+     font-size: 36px;
+     color: $title_color;
+     margin-bottom: 10px;
+     font-weight: 400;
+    }
+    &__address{
+        display: block;
+        color: #565656;
+        font-size: 18px;
+        line-height: 25px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+        &__tel{
+            display: block;
+            text-decoration: none;
+            color: #565656;
+            font-size: 16px;
+            margin: 10px 0px;
+        }
+        &__mail{
+            color: $title_color;
+            text-decoration: none;
+            font-size: 16px;
+            &::before{
+                content:'\2709';
+                margin-right: 5px;
+            }
+     }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

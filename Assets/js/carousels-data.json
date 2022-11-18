@@ -1,0 +1,26 @@
+[
+    {
+        "image1" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-foggy-wharf-railing-bench-1500x1200:Medium",
+        "image2" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-foggy-wharf-profile:Medium",
+        "image3" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-foggy-wharf-board-grain-detail-pattern-duos:Medium",
+         "name" : "FOGGY WHARF"
+    },
+    {
+        "image1" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-rocky-harbor-railing-chairs-1:Medium",
+        "image2" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-rocky-harbor-railing-aerial-1:Medium",
+        "image3" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-naturals-decking-rocky-harbor-board-grain-detail-pattern-duos:Medium",
+         "name" : "ROCKY HARBOR"
+    },
+    {
+        "image1" : "https://s7d1.scene7.com/is/image/trexcompany/decking-enhance-clam-shell-railing:Medium",
+        "image2" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-basics-decking-clam-shell-profile:Medium",
+        "image3" : "https://s7d1.scene7.com/is/image/trexcompany/trex-enhance-basics-decking-clam-shell-board-grain-detail-pattern-duos:Medium",
+         "name" : "CLAM SHELL"
+    },
+    {
+        "image1" : "https://images.trex.com/is/image/trexcompany/decking-select-pebble-grey-railing-2:Medium",
+        "image2" : "https://images.trex.com/is/image/trexcompany/trex-select-pebble-grey-board-sample-1:Medium",
+        "image3" : "https://images.trex.com/is/image/trexcompany/trex-select-pebble-grey-swatch-lg-1:Medium",
+         "name" : "PEBBLE GREY"
+    }
+]

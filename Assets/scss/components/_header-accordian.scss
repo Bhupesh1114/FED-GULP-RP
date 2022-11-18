@@ -1,0 +1,39 @@
+.header-accordian{
+    // border: 1px solid;
+     display: block;
+    @include media-breakpoint-up(md){
+        display: none;
+    }
+    &__menu{
+        padding: 20px;
+        background-color: $title_color;
+        position: relative;
+        &__input{
+        width: 100%;
+        font-size: 22px;
+        background-color: $title_color;
+        border: 2px solid $white;
+        color: $white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        }
+        &__btn{
+         position: absolute;
+         top: 33px;
+         right:40px;
+         transition: transform 0.3s;
+         background-color: $title_color;
+         border: none;
+         &__icon{
+            transition: transform 0.3s ease-in-out;
+            color: $white;
+            font-size: 35px;
+         }
+        }
+    }
+
+}
+
+.rotate-arrow{
+    transform: rotate(-180deg);
+}

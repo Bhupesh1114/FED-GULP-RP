@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+
+.my-footer-2 {
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+    @media screen and (min-width: 1000px) {
+      flex-direction: row;
+    }
+    &__left {
+      width: 100%;
+      display: flex;
+      position: relative;
+
+      @media only screen and (min-width: 1000px) {
+        width: 70%;
+        flex-direction: row;
+      }
+      @media only screen and (max-width: 768px) {
+        display: block;
+        text-align: center;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100vw;
+        top: 0;
+        right: 0px;
+
+        background: $footer-dark-bg;
+        z-index: -1;
+      }
+
+      &__part1 {
+        width: 100%;
+        height: 100%;
+        padding: 30px 45px;
+        @media only screen and (min-width: 768px) {
+          width: 40%;
+        }
+        &__title {
+          color: #fff;
+          font-size: 40px;
+          font-weight: 300;
+          margin-bottom: 20px;
+        }
+        &__desc {
+          font-size: 16px;
+          color: #fff;
+          line-height: 21.79px;
+          margin-bottom: 50px;
+          @media only screen and (min-width: 1000px) {
+            height: 65%;
+            margin-bottom: 0px;
+          }
+        }
+        &__icons-container {
+          font-size: 20px;
+          display: flex;
+          justify-content: space-between;
+          width: 80%;
+          margin: auto;
+          @media only screen and (min-width: 768px) {
+            margin: 0px;
+          }
+          .fab {
+            color: #fff;
+          }
+        }
+      }
+      &__part2 {
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        @media only screen and (min-width: 768px) {
+          width: 60%;
+        }
+        &__upper {
+          display: flex;
+          justify-content: space-between;
+          height: 75%;
+          padding: 40px 10px;
+          @media only screen and (min-width: 1100px) {
+            padding: 40px;
+          }
+          @media only screen and (min-width: 568px) {
+            padding: 40px 10px;
+           
+          }
+          @media only screen and(max-width : 568px){
+            flex-direction: column;
+            align-items: center;
+          }
+          &__first,
+          &__second,
+          &__third {
+            width: 33%;
+            height: 100%;
+            @media only screen and(max-width : 568px){
+              width: 100%;
+            }
+            &__title {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 24.51px;
+              margin-bottom: 20px;
+              @media only screen and(max-width : 568px){
+                font-size: 30px;
+                margin-top: 20px;
+              }
+            }
+            &__link {
+              color: #fff;
+              display: block;
+              text-decoration: none;
+              padding: 15px 0px;
+            }
+          }
+        }
+        &__lower {
+          height: 25%;
+          width: 100%;
+          padding: 32px 15px;
+          font-size: 14px;
+        }
+      }
+    }
+    &__right {
+      width: 100%;
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      @media only screen and (min-width: 1000px) {
+        width: 30%;
+        text-align: left;
+        padding: 40px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100vw;
+        top: 0;
+        left: 0px;
+        background: $footer-light-bg;
+        z-index: -1;
+      }
+      &__title {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+      }
+      &__desc {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        // margin: 0px 40px;
+        line-height: 21.79px;
+      }
+      &__btn {
+        background-color: #0077cd;
+        padding: 10px 30px;
+        font-weight: 600;
+        margin: 40px 0px 20px 0px;
+      }
+      &__copyright {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        margin: 30px 0px;
+        line-height: 21.79px;
+      }
+    }
+  }
+}

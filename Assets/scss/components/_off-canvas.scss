@@ -1,0 +1,55 @@
+.offcanvas {
+    overflow-y: scroll;
+  .offcanvas-header {
+    background-color: $title_color;
+    position: relative;
+    .btn-close {
+      cursor: pointer;
+      transition: transform 0.3s;
+      &:hover {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .offcanvas-body{
+    padding: 0px;
+   &__container{
+    background-color: $gray-bg-variant;
+    padding: 15px;
+    &__link{
+        text-decoration: none;
+        font-size: 25px;
+        color: $black;
+        
+    }
+   }
+   &__content{
+    padding: 15px;
+    border-bottom: 1px solid $gray-bg-variant;
+    font-size: 18px;
+    &__link{
+        text-decoration: none;
+        &:hover{
+        color: $card_bg_orange;
+        }
+    }
+    &__icon{
+        margin-right: 10px;
+        color: $card_bg_orange;
+    }
+   }
+   &__wrapper{
+    color: $black;
+    font-size: 18px;
+    border-bottom: 1px solid $gray-bg-variant;
+    padding: 15px;
+    &__link{
+        text-decoration: none;
+        color: $black;
+        &:hover{
+            color: $title_color;
+        }
+    }
+   }
+  }
+}

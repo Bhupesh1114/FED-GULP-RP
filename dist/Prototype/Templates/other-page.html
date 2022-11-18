@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Document</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../css/style.min.css">
+    <!-- endinject -->
+</head>
+<body>
+    <main>
+        <section class="header">
+        <div class="header__first-block">
+          <a class="header__first-block__icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fas fa-bars"></i>
+            <p class="header__first-block__icon__text">Menu</p>
+          </a>
+            <a href=""> <img class="header__first-block__logo"  src="../../images/St_Lukes_logo.png" alt="logo"></a>
+   
+            <div class="header__first-block__wrapper">
+        <div class="header__first-block__text">
+          <div class="header__first-block__text__content">
+            <i class="fa fa-calendar-check header__first-block__text__content__icon" aria-hidden="true"></i>
+            <a href="" class="header__first-block__text__content__text">Make an appointment</a>
+          </div>
+          <div class="header__first-block__text__content">
+            <i class="fas fa-dollar-sign header__first-block__text__content__icon" aria-hidden="true"></i>
+            <a href="" class="header__first-block__text__content__text">Pay a bill</a>
+          </div>
+          <div class="header__first-block__text__content">
+            <i class="fas fa-gift header__first-block__text__content__icon" aria-hidden="true"></i>
+            <a href="" class="header__first-block__text__content__text">Make a gift</a>
+          </div>
+          <div class="header__first-block__text__content">
+            <i class="fas fa-user-circle header__first-block__text__content__icon" aria-hidden="true"></i>
+            <a href="" class="header__first-block__text__content__text">Login</a>
+          </div>
+
+        </div>
+            </div>
+
+        <div class="header__first-block__search-container">
+          <button class="header__first-block__search-container__btn">
+            <i class="fas fa-search header__first-block__search-container__icon"></i>
+          </button>
+        </div>
+        </div>
+        <div class="header__second-block">
+            <a href=""> <img class="header__second-block__logo" src="../../images/pediatrics_logo.svg" alt=""></a>
+        </div>
+
+
+        <!-- Header Accordian -->
+        <section class="header-accordian">
+            <div class="header-accordian__menu">
+                <input class="header-accordian__menu__input" type="text" value="Menu" disabled>
+                <button class="header-accordian__menu__btn">
+                    <i class="fas fa-angle-down header-accordian__menu__btn__icon"></i>
+                </button>
+            </div>
+        </section>
+
+          <div class="header__third-block">
+            <ul class="header__third-block__text">
+             <li class="header__third-block__text__content">Overview</li>
+             <li class="header__third-block__text__wrapper" data-for-tab="find-care">
+              <div class="header__third-block__text__container">
+                <div class="header__third-block__text__container__content">Find Care </div>
+                <button class="header__third-block__text__container__btn"><i class="fas fa-chevron-down"></i></button>
+              </div>
+              <div class="header__third-block__text__wrapper__links" data-tab="find-care">
+             <a class="header__third-block__text__wrapper__links__link" href="">Surgical Services</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Cosmetic & Aesthetic Services</a>
+              </div>
+             </li>
+             <li class="header__third-block__text__wrapper" data-for-tab="clinical-services">
+              <div class="header__third-block__text__container">
+                <div class="header__third-block__text__container__content">Clinical Services</div>
+                <button class="header__third-block__text__container__btn"><i class="fas fa-chevron-down"></i></button>
+              </div>
+              <div class="header__third-block__text__wrapper__links" data-tab="clinical-services">
+             <a class="header__third-block__text__wrapper__links__link" href="">Allentown</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Bethlehem</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Center Valley</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Easton</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Palmerton</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Quakertown</a>
+             <a class="header__third-block__text__wrapper__links__link"  href="">Stroudsburg</a>
+              </div>
+             </li>
+             <li class="header__third-block__text__content">About Us <span></li>
+             <li class="header__third-block__text__content">Patient Stories</li>
+            </ul>
+        </div>
+
+        <!-- Search Input -->
+        <div class="header-search-from">
+          <div class="header__form__container">
+            <form action="" class="header-form">
+              <label class="header-form__label" for="search">Search</label>
+              <input class="header-form__input" type="text" placeholder="Search">
+              <i class="fas fa-search header-form__search" ></i>
+            </form>
+            <div class="header__form__btn">
+              <button class="btn-close"></button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Offcanvas Html -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <a class="offcanvas-title" id="offcanvasExampleLabel" href=""><img src="../../images/logo_white.svg" alt=""></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-body__container">
+                    <a class="offcanvas-body__container__link" href="">Call us at 866-STLUKES</a>
+                </div>
+            <div class="offcanvas-body__content">
+               <i class="fas fa-user-circle offcanvas-body__content__icon"></i>
+                <a class="offcanvas-body__content__link" href="">Patient Login</a>
+            </div>
+            <div class="offcanvas-body__content">
+                <i class="fas fa-search offcanvas-body__content__icon"></i>
+                <a class="offcanvas-body__content__link" href="">Find Care</a>
+            </div>
+            <div class="offcanvas-body__content">
+                <i class="fas fa-search-dollar offcanvas-body__content__icon"></i>
+                <a class="offcanvas-body__content__link" href="">Pay Your Bill</a>
+            </div>
+            <div class="offcanvas-body__content">
+                <i class="fas fa-search-dollar offcanvas-body__content__icon"></i>
+                <a class="offcanvas-body__content__link" href="">Locations/Campuses?</a>
+            </div>
+            <div class="offcanvas-body__content">
+                <i class="fas fa-search-dollar offcanvas-body__content__icon"></i>
+                <a class="offcanvas-body__content__link" href="">Make an Appointment</a>
+            </div>
+            <div class="offcanvas-body__wrapper">
+                <a href="" class="offcanvas-body__wrapper__link">Emergency Departments</a>
+            </div>
+          <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Services</a>
+          </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">About Us</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Education</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Research & innovation</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Price Checker</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">News</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Conditions & Services</a>
+         </div>
+         <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Careers</a>
+         </div>
+
+        <div class="offcanvas-body__wrapper">
+            <a href="" class="offcanvas-body__wrapper__link">Employee Login</a>
+        </div>
+
+    
+            </div>
+          </div>
+        </section>
+        <section class="woods">
+            <div class="woods-texture">
+                <div class="woods-texture__btns">
+                  <p>Filter:</p>
+                  <button data-for-tab="all" class="woods-texture__btns__btn active">All</button>
+                  <button data-for-tab="red" class="woods-texture__btns__btn">Reds</button>
+                  <button data-for-tab="brown" class="woods-texture__btns__btn">Browns</button>
+                  <button data-for-tab="grey" class="woods-texture__btns__btn">Greys</button>
+                </div>
+                <div  class="woods-texture__images"></div>
+              </div>
+        <div class="carousel-container"></div>
+     
+        </section>
+
+
+
+        
+        
+        </main>
+        <!-- JS ============================== -->
+
+    <!-- inject:js -->
+    <script src="../../js/main.min.js"></script>
+    <!-- endinject -->
+    <!-- / JS ============================ -->
+</body>
+</html>
